@@ -1,0 +1,19 @@
+// codigo não assincrono
+// function getFile(path) {
+//     const enconding = "utf-8";
+//     fs.readFile(path, enconding, (error, text) => {
+//         if (error) {
+//             handleError(error);
+//         }
+
+//         console.log(chalk.green(text));
+//     });
+// }
+
+// codigo assincrono com o then()
+// function getFile(path) {
+//     const enconding = "utf-8";
+//     fs.promises.readFile(path, enconding)
+//         .then((text) => console.log(chalk.green(text)))
+//         .catch(handleError)
+// }
